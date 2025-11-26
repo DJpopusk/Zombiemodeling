@@ -1,0 +1,23 @@
+# Build directories and CMake outputs
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Qt autogen outputs (in-source builds)
+*_autogen/
+moc_*.cpp
+rcc_*.cpp
+ui_*.h
+
+# IDE / OS junk
+.DS_Store
+*.user
+*.user.*
+*.pro.user
+*.qmlproject.user
+*.swp
+*.swo

@@ -1,0 +1,7 @@
+# Keep generated/build artifacts out of language stats
+build/** linguist-vendored
+
+# Help Linguist classify files correctly
+CMakeLists.txt linguist-language=CMake
+*.cmake linguist-language=CMake
+*.ui linguist-language=XML
