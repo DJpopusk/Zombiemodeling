@@ -15,6 +15,8 @@ MainWindow::MainWindow()
     resetWorldFromInputs();
 }
 
+MainWindow::~MainWindow() = default;
+
 void MainWindow::setupUi()
 {
     ui->setupUi(this);

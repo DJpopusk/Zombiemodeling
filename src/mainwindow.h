@@ -17,6 +17,7 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 public:
     MainWindow();
+    ~MainWindow();
 
 private slots:
     void onInit();
